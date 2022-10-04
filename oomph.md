@@ -4,6 +4,10 @@ Shell
 Root privilege escalation
 -------------------------
 
+### Privilege Escalation Awesome Scripts SUITE new generation (PEASS-ng)
+
+https://github.com/carlospolop/PEASS-ng
+
 ### GTFObins
 
 https://gtfobins.github.io
