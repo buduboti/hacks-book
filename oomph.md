@@ -29,6 +29,14 @@ Cracking
 
 https://github.com/vanhauser-thc/thc-hydra
 
+Scan
+====
+
+SMB
+---
+
+[enum4linux](https://www.kali.org/tools/enum4linux/)
+
 Password Cracking
 =================
 
