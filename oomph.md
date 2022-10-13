@@ -37,6 +37,11 @@ SMB
 
 [enum4linux](https://www.kali.org/tools/enum4linux/)
 
+File
+====
+
+### BinWalk
+
 Password Cracking
 =================
 
