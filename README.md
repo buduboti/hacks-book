@@ -1,2 +1,17 @@
 
-It's just a list of hacking tools (listed in the [the oomph file](oomph.md)) & some usefull scripts under [the scripts file](scripts.sh).
+Some hacking tools & some usefull scripts.
+
+
+
+``` bash
+
+# Interactive shell \w python
+
+python -c 'import pty;pty.spawn("/bin/bash")'
+
+# Scan SUID binaries
+
+find / -perm +6000 2>/dev/null | grep '/bin/'                         # It finds binaries at ex /usr/local/bin/ too
+find / -perm /6000 2>/dev/null | grep '/bin/' 
+
+```
