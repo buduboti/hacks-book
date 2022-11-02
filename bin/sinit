@@ -1,0 +1,33 @@
+#!/bin/bash
+
+GOBUSTER_WORDLIST="../documents/gobuster-directories/dsstorewordlist.txt"
+
+function help {
+	echo "This is an initial scan script which runs gobuster on every port where nmap reports a http connection."
+		echo "usage: $0 [ OPTIONS ] IP"
+		echo -e "\tOPTIONS:"
+		echo -e "\t\t-h\t\tShow this help"
+		echo -e "\t\t-d list\t\tDirectory list for gobuster"
+}
+
+OPTIND=1
+while getopts ":dh" opt; do
+case $opt in
+h) help;exit 1 ;;
+d) GOBUSTER_WORDLIST="$OPTARG";;
+\?) help;exit 1 ;;
+esac
+done
+shift "$((OPTIND-1))"
+
+IP=$1
+
+if [ "$IP" = "" ]
+then
+echo "Error: You must provide an IP!";help;exit 1;
+# TODO: else checkIP
+fi
+
+mkdir ./scan 2>/dev/null
+
+nmap -sC -sV $IP | tee scan/nmap | tee /dev/tty | grep "http" --color=none | grep --color=none "^[0-9]*/" | cut -d'/' -f1 | xargs -I{} gobuster dir -e -q -r -k -w $GOBUSTER_WORDLIST -u http://$IP:{}/ -o scan/gobuster-{}.txt
