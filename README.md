@@ -1,5 +1,5 @@
 
-Some hacking tools & some usefull scripts.
+Some hacking tools & some usefull scripts. ( Plus an [oomph file](oomph.md).)
 
 
 ``` bash
