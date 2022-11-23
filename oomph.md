@@ -42,6 +42,8 @@ File
 
 ### BinWalk
 
+### exiftool
+
 Password Cracking
 =================
 
