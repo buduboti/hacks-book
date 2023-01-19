@@ -1,3 +1,15 @@
+Domain research
+===============
+
+https://threatintelligenceplatform.com
+
+https://viewdns.info/
+
+https://search.censys.io
+
+https://www.shodan.io/
+
+
 Shell
 =====
 
