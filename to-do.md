@@ -7,3 +7,8 @@
 ### To Make
 
 * A tool which downloads all js files (or other static file), and search in thoes (grep -R)
+
+### To check out
+
+* [https://github.com/sleventyeleven/linuxprivchecker](https://github.com/sleventyeleven/linuxprivchecker/tree/master)
+* [https://github.com/laramies/theHarvester](https://github.com/laramies/theHarvester)
