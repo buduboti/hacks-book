@@ -13,3 +13,4 @@
 
 * [https://github.com/sleventyeleven/linuxprivchecker](https://github.com/sleventyeleven/linuxprivchecker/tree/master)
 * [https://github.com/laramies/theHarvester](https://github.com/laramies/theHarvester)
+* [https://www.blackhillsinfosec.com/shenetworks-recommends-using-nmap-like-a-pro/](https://www.blackhillsinfosec.com/shenetworks-recommends-using-nmap-like-a-pro/)
