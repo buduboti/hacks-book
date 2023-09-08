@@ -10,4 +10,4 @@
 
 LOLBAS
 
-[https://lolbas-project.github.io/#](https://lolbas-project.github.io)
+{% embed url="https://lolbas-project.github.io" %}
