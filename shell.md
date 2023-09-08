@@ -7,3 +7,7 @@
 #### GTFObins
 
 {% embed url="https://gtfobins.github.io" %}
+
+LOLBAS
+
+[https://lolbas-project.github.io/#](https://lolbas-project.github.io)
