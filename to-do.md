@@ -8,6 +8,8 @@
 
 * A tool which downloads all js files (or other static file), and search in thoes (grep -R)
 * [https://pwnagotchi.ai](https://pwnagotchi.ai)
+* Malduino:
+  * &#x20;[https://www.youtube.com/watch?v=mopkZu\_jRVs](https://www.youtube.com/watch?v=mopkZu\_jRVs)
 * Kismet @ Raspberry ([https://youtu.be/f2BjFilLDqQ](https://youtu.be/f2BjFilLDqQ))
 
 ### To check out
