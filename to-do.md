@@ -10,7 +10,10 @@
 * [https://pwnagotchi.ai](https://pwnagotchi.ai)
 * Malduino:
   * &#x20;[https://www.youtube.com/watch?v=mopkZu\_jRVs](https://www.youtube.com/watch?v=mopkZu\_jRVs)
+* DIY Rubber Ducky:
+  * [https://www.youtube.com/watch?v=\_yJWwKO3\_Z0](https://www.youtube.com/watch?v=\_yJWwKO3\_Z0) ($3)
 * Kismet @ Raspberry ([https://youtu.be/f2BjFilLDqQ](https://youtu.be/f2BjFilLDqQ))
+* Bash Bunny (via RPI 0W): [https://www.cron.dk/poor-mans-bash-bunny/](https://www.cron.dk/poor-mans-bash-bunny/)
 
 ### To check out
 
