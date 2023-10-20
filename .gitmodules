@@ -1,3 +1,9 @@
 [submodule "tools/sherlock"]
 	path = tools/sherlock
 	url = git@github.com:sherlock-project/sherlock.git
+[submodule "tools/pwnagotchi"]
+	path = tools/pwnagotchi
+	url = git@github.com:buduboti/pwnagotchi.git
+[submodule "tools/pwnagotchi-plugins"]
+	path = tools/pwnagotchi-plugins
+	url = git@github.com:hannadiamond/pwnagotchi-plugins.git

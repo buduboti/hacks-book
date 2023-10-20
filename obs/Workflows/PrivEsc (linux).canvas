@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"49b2ad35265d1bf2","x":-260,"y":-680,"width":480,"height":60,"type":"text","text":"Check Kernel version and kernel vulns"},
+		{"id":"11e954d355b5145f","x":-260,"y":-545,"width":480,"height":65,"type":"text","text":"Installed software (`dpkg -l` || `dir C:\\Program Files`)"},
+		{"id":"d2614b59046f865d","x":-260,"y":-393,"width":480,"height":60,"type":"text","text":"User Priv (`sudo -l`)"},
+		{"id":"53c2969f74a59e68","x":260,"y":-424,"width":220,"height":122,"type":"text","text":"Program PrivEsc (\n\tLinux: [GTFOBins](https://gtfobins.github.io/)\n\tWindow: [LOLBAS](https://lolbas-project.github.io/#)\n)"},
+		{"id":"a4009db0b86b156f","x":-260,"y":-260,"width":480,"height":60,"type":"text","text":"Scheduled tasks (Cron && Task Scheduler)"},
+		{"id":"ab16ba72a610a421","x":-260,"y":-100,"width":480,"height":160,"type":"text","text":"Exposed Credentials:\n\t- Conf files\n\t- Logs\n\t- History (`bash_history` in Linux and `PSReadLine` in Windows)"},
+		{"id":"353d81c059b0934f","x":-145,"y":160,"width":250,"height":60,"type":"text","text":"SSH Keys"}
+	],
+	"edges":[
+		{"id":"64f583d86a3934a1","fromNode":"49b2ad35265d1bf2","fromSide":"bottom","toNode":"11e954d355b5145f","toSide":"top"},
+		{"id":"06356321e3c055e8","fromNode":"11e954d355b5145f","fromSide":"bottom","toNode":"d2614b59046f865d","toSide":"top"},
+		{"id":"e9091779ae1f1ecf","fromNode":"d2614b59046f865d","fromSide":"right","toNode":"53c2969f74a59e68","toSide":"left"},
+		{"id":"1c3482bc1e7ed23b","fromNode":"11e954d355b5145f","fromSide":"right","toNode":"53c2969f74a59e68","toSide":"top"},
+		{"id":"339ec3c5076491d9","fromNode":"d2614b59046f865d","fromSide":"bottom","toNode":"a4009db0b86b156f","toSide":"top"},
+		{"id":"f8de3a2053972607","fromNode":"a4009db0b86b156f","fromSide":"bottom","toNode":"ab16ba72a610a421","toSide":"top"},
+		{"id":"959c00a422a73952","fromNode":"ab16ba72a610a421","fromSide":"bottom","toNode":"353d81c059b0934f","toSide":"top"}
+	]
+}

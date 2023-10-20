@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"5cb1b83fd5d3140b","type":"text","text":"Emulation (`nmap`, `gobuster`)","x":-280,"y":-780,"width":480,"height":50},
+		{"id":"b9c2567ccbdda7fe","type":"text","text":"Check programs/versions vulnerable (`searchsploit`)","x":-280,"y":-640,"width":480,"height":60},
+		{"id":"375d288c693ec2ca","type":"file","file":"Guidelines/Metasploit_guideline.md","x":-320,"y":-400,"width":580,"height":400}
+	],
+	"edges":[
+		{"id":"77a3afb862bc3338","fromNode":"5cb1b83fd5d3140b","fromSide":"bottom","toNode":"b9c2567ccbdda7fe","toSide":"top"}
+	]
+}
