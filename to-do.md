@@ -7,7 +7,7 @@
 ### To Make
 
 * A tool which downloads all js files (or other static file), and search in thoes (grep -R)
-* [https://pwnagotchi.ai](https://pwnagotchi.ai)
+* Radio Pentest (DIY): [https://youtu.be/iPVckkTjsd0?si=PV9c3ZNk-Ui-fVmq](https://youtu.be/iPVckkTjsd0?si=PV9c3ZNk-Ui-fVmq)
 * Malduino:
   * &#x20;[https://www.youtube.com/watch?v=mopkZu\_jRVs](https://www.youtube.com/watch?v=mopkZu\_jRVs)
 * DIY Rubber Ducky:
@@ -22,3 +22,7 @@
 * [https://github.com/laramies/theHarvester](https://github.com/laramies/theHarvester)
 * [https://www.blackhillsinfosec.com/shenetworks-recommends-using-nmap-like-a-pro/](https://www.blackhillsinfosec.com/shenetworks-recommends-using-nmap-like-a-pro/)
 * Unstructured Supplementary Service Data (phone hacking)
+
+## Done
+
+* [https://pwnagotchi.ai](https://pwnagotchi.ai)
